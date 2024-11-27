@@ -1,0 +1,39 @@
+.header {
+    z-index: 1;
+    position: sticky;
+    justify-content: space-between;
+    top: 0px;
+    width: 95%;
+    height: 100px;
+    color: white;
+    background-color: #13043d;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0px 40px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* класс модификатор, который добавляется к активной ссылке меню */
+  .linkActive {
+    text-decoration: underline !important;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .linkActive {
+    font-weight: bold;
+    text-decoration: underline;
+  }
